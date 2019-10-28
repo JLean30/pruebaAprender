@@ -11,7 +11,7 @@ class Home extends Component {
         return (
             
                 <View
-                    style={{ width: this.props.width / 2, height: this.props.height / 2 }}>
+                    style={{ width: this.props.width / 2 - 30, height: this.props.width / 2 -30 }}>
                     <View style={{ flex: 1 }}>
                         <Image source={this.props.imageUri}
                             style={{
@@ -24,14 +24,14 @@ class Home extends Component {
                         justifyContent: 'space-evenly', paddingLeft: 10
                     }}>
                         <Text style={{
-                            fontSize: 14,
+                            fontSize: 10,
                             color: '#b63838'
                         }}>Private Room</Text>
                         <Text style={{
                             fontSize: 12,
                             fontWeight: 'bold'
                         }}>The cozy Palace</Text>
-                        <Text style={{ fontSize: 12 }}>$82</Text>
+                        <Text style={{ fontSize: 10 }}>$82</Text>
 
                     </View>
 

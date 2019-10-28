@@ -103,9 +103,13 @@ class Explore extends Component {
                                 style={{fontSize:24, fontWeight:'700',
                                 paddingHorizontal:20}}>
                                     Homes Around The World</Text> 
-                                    <View style={{ paddingHorizontal: 20, marginTop: 20 }}>
-                                        <Home width={width} height={height} imageUri={require('../assets/home.jpg')} />
+                                    <View style={{ paddingHorizontal: 20, marginTop: 20, flexDirection:"row", flexWrap: "wrap",
+                                justifyContent: "space-between" }}>
+                                        <Home width={width} imageUri={require('../assets/home.jpg')} />
+                                        <Home width={width} imageUri={require('../assets/home.jpg')} />
+                                        <Home width={width} imageUri={require('../assets/home.jpg')} />
                                     </View>
+                                    
 
                             </View>
                         </View>
